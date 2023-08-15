@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background:-webkit-linear-gradient(25deg,#fbfb2e,red);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.MCQ-box {
+  background:#fffaa7;
+  border-radius: 40px 0px 40px 0px;
+  max-width: 800px;
+  width: 90%; 
+  padding: 30px;
+  overflow: hidden;
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+.mcq-header {
+  padding: 4rem;
+}
+h1{background: #ff4f8b;
+  color: black;
+  font-family: "arial";
+  font-weight: 400;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border-radius: 20px;
+  padding: 10px;
+}
+h2 {
+  font-family: 'Pacifico',cursive;
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  list-style-type: decimal;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+ul li label {
+  cursor: pointer;
+}
+button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  display: block;
+  width: 25%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.3rem;
+  margin-left: 50px;
+}
+button:hover {
+  background-color: red;
+}
+button:focus {
+  outline: none;
+  background-color: rgb(4, 142, 57);
+}
